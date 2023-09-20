@@ -14,7 +14,7 @@
     >
       <div
         id="sidebar"
-        class="bg-sky-500 col-start-1 row-span-full col-span-1 p-6 grid grid-rows-[1fr,9fr] gap-5 max-h-screen"
+        class="bg-sky-500 col-start-1 row-span-full col-span-1 p-6 grid grid-rows-[1fr,9fr] gap-5 h-screen"
       >
         <div
           id="logo-container"
@@ -173,11 +173,7 @@
             />
           </div>
           <div id="seconed-part-of-first-row" class="flex gap-7 items-center">
-            <img
-              class="w-7 h-auto"
-              src="./assets/bell-ring-outline.svg"
-              alt=""
-            />
+            <svg class="w-7 h-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" /></svg>
             <img
               class="w-10 h-10 rounded-full"
               src="./assets/licensed-image.jpeg"
@@ -188,7 +184,7 @@
         </div>
         <div id="seconed-row-of-header" class="flex justify-between px-11">
           <div
-            id="first-part-of5gap-5econed-row"
+            id="first-part-of-seconed-row"
             class="flex gap-5 items-center"
           >
             <img
@@ -204,17 +200,17 @@
           </div>
           <div id="seconed-part-of-seconed-row" class="flex gap-3 items-center">
             <button
-              class="bg-sky-500 text-white text-xs font-bold rounded-3xl h-6 w-16 "
+              class="bg-sky-500 text-white text- font-bold rounded-3xl h-8 w-20 "
             >
               New
             </button>
             <button
-              class="bg-sky-500 text-white text-xs font-bold rounded-3xl h-6 w-16 "
+              class="bg-sky-500 text-white text- font-bold rounded-3xl h-8 w-20 "
             >
               Upload
             </button>
             <button
-              class="bg-sky-500 text-white text-xs font-bold rounded-3xl h-6 w-16 "
+              class="bg-sky-500 text-white text- font-bold rounded-3xl h-8 w-20 "
             >
               Share
             </button>
@@ -224,20 +220,20 @@
       <div class="max-h-screen overflow-hidden">
         <div
           id="main-content"
-          class="bg-slate-200 grid grid-cols-[3fr,1fr] h-auto"
+          class="bg-slate-200 grid grid-cols-[3fr,1fr] h-[calc(100vh-120px)] content-stretch"
         >
           <div id="projects" class="grid grid-rows-[30px,1fr] p-2 px-4">
             <div id="projects-word" class="row-start-1">Your projects</div>
             <div
               id="cards"
-              class="grid grid-cols-[repeat(auto-fit,minmax(380px,1fr))] row-start-2 gap-3 auto-rows-max"
+              class="grid grid-cols-[repeat(auto-fit,minmax(380px,1fr))] row-start-2 gap-3 auto-rows-max items-stretch content-stretch"
             >
               <div
                 id="card-1"
                 class="bg-white flex flex-col h-fit justify-start gap-1 border-l-8 p-4 border-l-yellow-500  rounded-xl shadow-lg"
               >
                 <h4 class="text-lg font-bold">Super cool project</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                   voluptatibus dolore excepturi voluptate! Voluptatem odio animi
                   assumenda impedit, sunt corporis commodi quisquam reiciendis
@@ -281,7 +277,7 @@
                 class="bg-white flex flex-col h-fit justify-start gap-1 border-l-8 p-4 border-l-yellow-500  rounded-xl shadow-lg"
               >
                 <h4 class="text-lg font-bold">Less cool project</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                   voluptatibus dolore excepturi voluptate! Voluptatem odio animi
                   assumenda impedit, sunt corporis commodi quisquam reiciendis
@@ -325,7 +321,7 @@
                 class="bg-white flex flex-col h-fit justify-start gap-1 border-l-8 p-4 border-l-yellow-500  rounded-xl shadow-lg"
               >
                 <h4 class="text-lg font-bold">Impossiple app</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                   voluptatibus dolore excepturi voluptate! Voluptatem odio animi
                   assumenda impedit, sunt corporis commodi quisquam reiciendis
@@ -369,7 +365,7 @@
                 class="bg-white flex flex-col h-fit justify-start gap-1 border-l-8 p-4 border-l-yellow-500  rounded-xl shadow-lg"
               >
                 <h4 class="text-lg font-bold">Easy app</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                   voluptatibus dolore excepturi voluptate! Voluptatem odio animi
                   assumenda impedit, sunt corporis commodi quisquam reiciendis
@@ -413,7 +409,7 @@
                 class="bg-white flex flex-col h-fit justify-start gap-1 border-l-8 p-4 border-l-yellow-500  rounded-xl shadow-lg"
               >
                 <h4 class="text-lg font-bold">Ad blocker</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                   voluptatibus dolore excepturi voluptate! Voluptatem odio animi
                   assumenda impedit, sunt corporis commodi quisquam reiciendis
@@ -457,7 +453,7 @@
                 class="bg-white flex flex-col h-fit justify-start gap-1 border-l-8 p-4 border-l-yellow-500  rounded-xl shadow-lg"
               >
                 <h4 class="text-lg font-bold">Money maker</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
                   voluptatibus dolore excepturi voluptate! Voluptatem odio animi
                   assumenda impedit, sunt corporis commodi quisquam reiciendis
@@ -506,7 +502,7 @@
             >
               <div id="sec-1">
                 <h4 class="text-base font-bold">Site mantianence</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Praesentium quas minima velit.
                 </p>
@@ -514,7 +510,7 @@
               <hr />
               <div id="sec-2">
                 <h4 class="text-base font-bold ">Communitiy share day</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Praesentium quas minima velit.
                 </p>
@@ -522,7 +518,7 @@
               <hr />
               <div id="sec-3">
                 <h4 class="text-base font-bold">Update privacy policy</h4>
-                <p class="text-xs">
+                <p class="text-sm">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Praesentium quas minima velit.
                 </p>
@@ -530,7 +526,7 @@
             </div>
             <h4 class="mt-1">Trending</h4>
             <div
-              class="bg-white rounded-lg p-2 px-4 flex flex-col justify-around h-fit gap-2 pl-6"
+              class="bg-white rounded-lg p-4 pb-5 px-4 flex flex-col justify-around h-fit gap-2 shadow-md "
             >
               <div class="flex gap-5 items-center h-fit">
                 <img
